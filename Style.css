@@ -19,3 +19,24 @@ src: local('LibelSuit-Regular'), url('libelsuit.woff') format('woff');
 	font-family:'LibelSuit-Regular';font-weight:normal;
 }
 </style>
+/*Font face implementation with URL address*/
+/*.WOFF File must be located in the server*/
+
+<style>
+@font-face {
+font-family: 'LibelSuit-Regular';
+font-style: normal;
+font-weight: normal;
+src: url('https://yourUrl') format('woff');
+}
+
+@font-face {
+font-family: 'LibelSuit-Regular';
+font-style: normal;
+font-weight: normal;
+src: url('https://yourUrl') format('woff');
+}
+.maincon {
+	font-family:'LibelSuit-Regular';font-weight:normal;
+}
+</style>
