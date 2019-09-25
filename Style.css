@@ -1,26 +1,21 @@
 /*Do not forget to integrate the .woof file in your directory, otherwise you not gonna be able to use the font*/
-<style>
+/*Main Container*/
+.maincon {
+	font-family:'LibelSuit-Regular';
+	font-weight:normal;
+} 
 
-  @font-face {
-font-family: 'LibelSuit-Regular';
-font-style: normal;
-font-weight: normal;
-src: local('LibelSuit-Regular'), url('libelsuit.woff') format('woff');
-}
-
-
+/*Instruction for local and url source*/
 @font-face {
 font-family: 'LibelSuit-Regular';
 font-style: normal;
 font-weight: normal;
 src: local('LibelSuit-Regular'), url('libelsuit.woff') format('woff');
 }
-.maincon {
-	font-family:'LibelSuit-Regular';font-weight:normal;
-}
-</style>
+
+
 /*Font face implementation with URL address*/
-/*.WOFF File must be located in the server*/
+/*.WOFF File must be located in the server or in your SharePoint */
 
 <style>
 @font-face {
@@ -39,4 +34,4 @@ src: url('https://yourUrl') format('woff');
 .maincon {
 	font-family:'LibelSuit-Regular';font-weight:normal;
 }
-</style>
+
